@@ -87,8 +87,8 @@ The ZID dashboard provides real-time observability across the entire decision pi
 No installation. No build step. No dependencies.
 
 ```bash
-git clone https://github.com/mandaramd3kar/tinkering-ground.git
-cd tinkering-ground/zero-input-decisioning
+git clone https://github.com/mandaramd3kar/zero-input-decisioning.git
+cd zero-input-decisioning
 open index.html   # or double-click it
 ```
 

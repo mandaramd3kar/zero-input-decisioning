@@ -1,0 +1,23 @@
+<svg width="1080" height="1080" viewBox="0 0 1080 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#0d1117"/>
+
+  <!-- Subtle grid pattern (matches site body::before) -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="40" stroke="rgba(37,99,235,0.04)" stroke-width="1"/>
+      <line x1="0" y1="0" x2="40" y2="0" stroke="rgba(37,99,235,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#grid)"/>
+
+  <!-- Icon: translate(274,274) scale(19) maps original 28x28 viewBox
+       so the visible icon (2,2)→(26,26) is perfectly centered in 1080x1080 -->
+  <g transform="translate(274, 274) scale(19)">
+    <rect x="2" y="2" width="11" height="11" rx="2" fill="#2563eb"/>
+    <rect x="15" y="2" width="11" height="11" rx="2" fill="#2563eb" opacity="0.5"/>
+    <rect x="2" y="15" width="11" height="11" rx="2" fill="#2563eb" opacity="0.5"/>
+    <rect x="15" y="15" width="11" height="11" rx="2" fill="#2563eb" opacity="0.8"/>
+    <circle cx="14" cy="14" r="3" fill="#58a6ff"/>
+  </g>
+</svg>
